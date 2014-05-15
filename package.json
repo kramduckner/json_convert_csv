@@ -1,0 +1,32 @@
+{
+  "name": "json_convert_csv",
+  "version": "0.0.0",
+  "description": "converts json to csv strings ==============",
+  "main": "json_convert_csv.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {},
+  "engines" : {
+	"node" : ">=0.6.0"
+},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kramduckner/JSONconvertCSV.git"
+  }, 
+  "keywords": [
+	"csv",
+	"JSON", 
+	"conversion"
+	],
+  "author": {
+	"name": "Mark Buckner",
+	"email" : "buckner.a.mark@gmail.com"	
+	},
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kramduckner/JSONconvertCSV/issues"
+  },
+  "homepage": "https://github.com/kramduckner/JSONconvertCSV",
+  "readme": "This module's functionality is converting JSON to .csv strings'"
+}
