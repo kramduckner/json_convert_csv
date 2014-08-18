@@ -56,9 +56,9 @@ module.exports = {
 	var numOfElem = 0;
 	var otherCount = 0;
 	var firstIteration = true;
+	var count = 0;
 
-
-	if (typeof includeTitles === 'function'){  //setting up degault value for makeFile argument
+	if (typeof includeTitles === 'function'){  //setting up default value for makeFile argument
 				callback = makeFile;		
 				makeFile = true;
 			}
@@ -79,7 +79,7 @@ module.exports = {
 	
 	csvString += '\n';
 
-	var count = 0;
+	
 	
 	for (prop in JSON) { //need to get count for loop populating the arrayOfArrays
 
@@ -163,6 +163,7 @@ module.exports = {
 },
 
  concatenateStrings: function(str1, str2){
+	
 	var rowCount1 = 0;
 	var columnCount1 = 0;
 	var rowCount2 = 0;
@@ -179,7 +180,7 @@ module.exports = {
 
 
 
-	for (var i =0; i < str1.length; i++){ 
+	for (var i =0; i < str1.length; i++){  
 	
 		if (str1[i] === "," && firstIteration1 === true){
 		
@@ -194,7 +195,7 @@ module.exports = {
 		}
 	}
 
-	for (var i =0; i< str2.length; i++){ 
+	for (var i =0; i< str2.length; i++){  
 	
 		if (str2[i] === "," && firstIteration2 === true){
 		
