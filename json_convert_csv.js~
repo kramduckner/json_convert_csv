@@ -7,7 +7,7 @@ module.exports = {
 			var str = '';
 
 
-			//setting up default argument for includeTitles to 'true'
+			//setting up default argument for makeFile to 'true'
 			
 			if (typeof includeTitles === 'function'){
 				callback = makeFile;		
@@ -48,7 +48,7 @@ module.exports = {
 				},
 
 
-	JSONArraysToCsv: function(JSON, includeTitles, callback) { 
+	JSONArraysToCsv: function(JSON, includeTitles, callback) { //need to incorporate that makeFile
 
 	var csvString = '';
 	var arrayOfArrays = [];

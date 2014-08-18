@@ -4,6 +4,16 @@ var fs = require('fs');
 var JSON1 = {hotdog: '3', bananas: '5', koala_bears: '2', ant_meat: '3', bread: '5'};
 var arrayJSON = { 'prop1': ["elem1", "elem2", "elem3"], 'prop2': ["elem4", "elem5", "elem6"], 'prop3': ["elem7", "elem8", "elem9"] };
 
+var string1;
+
+
+json2csv.convertToCsv(JSON1, true, function(str){
+
+	string1 = str;
+
+});
+
+
 
 var string1 = "hotdog,bananas,koala_bears,ant_meat,bread, \n 3,5,2,3,5,\n";
 
