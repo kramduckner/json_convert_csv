@@ -1,4 +1,4 @@
-var json2csv = require('./json_convert_csv.js');
+var json2csv = require('json_convert_csv');
 var fs = require('fs');
 
 var JSON = {hotdog: '3', bananas: '5', koala_bears: '2', ant_meat: '3', bread: '5'};
