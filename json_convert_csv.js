@@ -1,5 +1,5 @@
 //what do you call a cell phone who can't receive phone calls?
-// a phony	
+// a phony phone	
 
 
 module.exports = {
