@@ -1,11 +1,13 @@
-	
+//what do you call a cell phone who can't receive phone calls?
+// a phony	
+
+
 module.exports = {
 	
 	JSONToCsv: function(obj, includeTitles, callback) {	
 
 
-			var str = '';
-
+			var str = ''; 
 
 			//setting up default argument for includeTitles to 'true'
 			
